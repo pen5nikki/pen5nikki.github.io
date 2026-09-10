@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>国外搜索引擎大全 - 全球主流搜索引擎分类导航与使用指南</title>
+<meta name="description" content="国外搜索引擎大全，系统整理全球主流与特色搜索引擎，涵盖综合搜索、隐私搜索、学术搜索、图片视频搜索及区域搜索，附使用场景与选择建议。">
+<meta name="keywords" content="国外搜索引擎大全,国外搜索引擎,全球搜索引擎,隐私搜索引擎,学术搜索引擎,搜索引擎导航">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+  :root{
+    --bg:#f4f6fb;
+    --panel:#ffffff;
+    --ink:#1a2233;
+    --ink-soft:#4d5872;
+    --ink-mute:#7b859c;
+    --line:#e2e7f1;
+    --brand:#1f5fd6;
+    --brand-deep:#123c8c;
+    --brand-soft:#e8f0ff;
+    --accent:#0f9d8f;
+    --accent-soft:#e3f7f4;
+    --warn-soft:#fff5e6;
+    --radius:14px;
+    --shadow:0 6px 24px rgba(24,42,80,.07);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+    font-size:16px;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--brand);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;}
+  p{margin:0 0 14px;}
+  ul{margin:0;padding-left:20px;}
+  .wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 20px;}
+
+  /* 顶栏 */
+  .topbar{
+    background:#0d1b36;
+    color:#c9d6ef;
+    font-size:13px;
+    border-bottom:1px solid rgba(255,255,255,.08);
+  }
+  .topbar .wrap{
+    display:flex;flex-wrap:wrap;gap:10px 22px;
+    align-items:center;justify-content:space-between;
+    min-height:42px;padding-top:6px;padding-bottom:6px;
+  }
+  .topbar span{color:#8fa4c9;}
+  .topbar b{color:#fff;font-weight:600;}
+
+  /* 页眉 */
+  header.site{
+    background:linear-gradient(135deg,#123c8c 0%,#1f5fd6 55%,#2f7ef0 100%);
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+  }
+  header.site::after{
+    content:"";
+    position:absolute;right:-90px;top:-90px;
+    width:320px;height:320px;border-radius:50%;
+    background:rgba(255,255,255,.07);
+  }
+  .header-inner{
+    position:relative;z-index:2;
+    display:flex;flex-wrap:wrap;gap:18px;
+    align-items:center;justify-content:space-between;
+    padding:22px 0 24px;
+  }
+  .logo{
+    display:flex;align-items:center;gap:12px;
+  }
+  .logo-mark{
+    width:44px;height:44px;border-radius:12px;
+    background:rgba(255,255,255,.16);
+    border:1px solid rgba(255,255,255,.35);
+    display:flex;align-items:center;justify-content:center;
+    font-size:20px;font-weight:700;letter-spacing:-1px;
+  }
+  .logo-text strong{display:block;font-size:19px;letter-spacing:.5px;}
+  .logo-text em{
+    font-style:normal;font-size:12.5px;color:#cfe0ff;letter-spacing:.4px;
+  }
+  nav.mainnav{display:flex;flex-wrap:wrap;gap:6px;}
+  nav.mainnav a{
+    color:#e6eeff;font-size:14.5px;
+    padding:8px 14px;border-radius:999px;
+    border:1px solid transparent;
+    transition:.2s;
+  }
+  nav.mainnav a:hover{
+    background:rgba(255,255,255,.14);
+    border-color:rgba(255,255,255,.28);
+    text-decoration:none;
+  }
+
+  /* 首屏 */
+  .hero{
+    position:relative;z-index:2;
+    padding:6px 0 42px;
+    color:#fff;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.35fr .95fr;
+    gap:34px;
+    align-items:start;
+  }
+  .hero h1{
+    font-size:clamp(24px,3.2vw,34px);
+    letter-spacing:.5px;
+    margin-bottom:14px;
+  }
+  .hero p.lead{
+    color:#dce8ff;
+    font-size:15.5px;
+    max-width:640px;
+  }
+  .hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;}
+  .hero-tags span{
+    font-size:13px;padding:5px 12px;border-radius:999px;
+    background:rgba(255,255,255,.13);
+    border:1px solid rgba(255,255,255,.24);
+    color:#eaf2ff;
+  }
+  .hero-card{
+    background:rgba(255,255,255,.1);
+    border:1px solid rgba(255,255,255,.24);
+    border-radius:var(--radius);
+    padding:18px 20px;
+    backdrop-filter:blur(4px);
+  }
+  .hero-card h3{
+    font-size:15px;color:#fff;margin-bottom:10px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .hero-card h3::before{
+    content:"";width:6px;height:16px;border-radius:3px;background:#7fd6c9;
+  }
+  .hero-card ul{list-style:none;padding:0;margin:0;}
+  .hero-card li{
+    font-size:14px;color:#dbe7ff;
+    padding:7px 0;
+    border-bottom:1px dashed rgba(255,255,255,.16);
+  }
+  .hero-card li:last-child{border-bottom:none;}
+  .hero-card li b{color:#fff;font-weight:600;}
+
+  /* 通用区块 */
+  main{padding:38px 0 10px;}
+  section.block{margin-bottom:46px;}
+  .sec-head{
+    display:flex;flex-wrap:wrap;gap:12px;
+    align-items:flex-end;justify-content:space-between;
+    margin-bottom:20px;
+  }
+  .sec-head h2{
+    font-size:22px;
+    display:flex;align-items:center;gap:10px;
+  }
+  .sec-head h2::before{
+    content:"";width:5px;height:20px;border-radius:3px;
+    background:linear-gradient(180deg,var(--brand),var(--accent));
+  }
+  .sec-head p{
+    margin:0;font-size:14px;color:var(--ink-mute);max-width:560px;
+  }
+
+  /* 分类导航条 */
+  .catbar{
+    display:flex;flex-wrap:wrap;gap:10px;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:14px 16px;
+    box-shadow:var(--shadow);
+  }
+  .catbar a{
+    font-size:14px;color:var(--ink-soft);
+    background:#f2f5fc;
+    border:1px solid var(--line);
+    padding:7px 14px;border-radius:999px;
+    transition:.2s;
+  }
+  .catbar a:hover{
+    background:var(--brand-soft);
+    color:var(--brand-deep);
+    border-color:#c6daff;
+    text-decoration:none;
+  }
+
+  /* 搜索引擎卡片网格 */
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(272px,1fr));
+    gap:18px;
+  }
+  .card{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:20px;
+    box-shadow:var(--shadow);
+    display:flex;flex-direction:column;
+    transition:.22s;
+  }
+  .card:hover{
+    transform:translateY(-3px);
+    border-color:#c6daff;
+    box-shadow:0 12px 30px rgba(31,95,214,.12);
+  }
+  .card-top{
+    display:flex;align-items:center;gap:12px;
+    margin-bottom:12px;
+  }
+  .badge{
+    width:42px;height:42px;flex:0 0 42px;
+    border-radius:11px;
+    display:flex;align-items:center;justify-content:center;
+    font-size:17px;font-weight:700;color:#fff;
+    letter-spacing:-.5px;
+  }
+  .b-blue{background:linear-gradient(135deg,#1f5fd6,#3d8bff);}
+  .b-green{background:linear-gradient(135deg,#0f9d8f,#38c3b0);}
+  .b-orange{background:linear-gradient(135deg,#e07a1f,#f5a94a);}
+  .b-purple{background:linear-gradient(135deg,#6a4fd6,#9a7bf0);}
+  .b-red{background:linear-gradient(135deg,#c93a4b,#ef6b7a);}
+  .b-slate{background:linear-gradient(135deg,#3b4a63,#64748b);}
+  .card-top h3{font-size:16.5px;}
+  .card-top em{
+    display:block;font-style:normal;
+    font-size:12.5px;color:var(--ink-mute);font-weight:400;
+  }
+  .card p{font-size:14.2px;color:var(--ink-soft);margin-bottom:12px;}
+  .meta{
+    margin-top:auto;
+    display:flex;flex-wrap:wrap;gap:7px;
+  }
+  .meta span{
+    font-size:12.5px;color:var(--brand-deep);
+    background:var(--brand-soft);
+    border-radius:6px;padding:3px 9px;
+  }
+  .meta span.g{
+    color:#0b6b60;background:var(--accent-soft);
+  }
+
+  /* 特色区块：两栏 */
+  .split{
+    display:grid;
+    grid-template-columns:1.05fr .95fr;
+    gap:20px;
+  }
+  .panel{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px;
+    box-shadow:var(--shadow);
+  }
+  .panel h3{font-size:17px;margin-bottom:12px;}
+  .panel h3 small{
+    font-size:12.5px;color:var(--ink-mute);font-weight:400;margin-left:8px;
+  }
+  .checklist{list-style:none;padding:0;margin:0;}
+  .checklist li{
+    position:relative;
+    padding:9px 0 9px 26px;
+    font-size:14.3px;color:var(--ink-soft);
+    border-bottom:1px dashed var(--line);
+  }
+  .checklist li:last-child{border-bottom:none;}
+  .checklist li::before{
+    content:"✓";
+    position:absolute;left:0;top:9px;
+    color:var(--accent);font-weight:700;font-size:13px;
+  }
+  .checklist li b{color:var(--ink);}
+
+  /* 对比表 */
+  .table-wrap{
+    overflow-x:auto;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+  }
+  table{
+    width:100%;border-collapse:collapse;min-width:660px;
+    font-size:14.2px;
+  }
+  thead th{
+    background:#f0f4fd;
+    color:var(--ink);
+    text-align:left;
+    padding:13px 16px;
+    font-weight:600;
+    border-bottom:1px solid var(--line);
+    white-space:nowrap;
+  }
+  tbody td{
+    padding:13px 16px;
+    border-bottom:1px solid var(--line);
+    color:var(--ink-soft);
+    vertical-align:top;
+  }
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:#fafcff;}
+  tbody td strong{color:var(--ink);}
+
+  /* 步骤 */
+  .steps{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:16px;
+  }
+  .step{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:20px;
+    box-shadow:var(--shadow);
+    position:relative;
+  }
+  .step i{
+    font-style:normal;
+    display:inline-flex;align-items:center;justify-content:center;
+    width:30px;height:30px;border-radius:9px;
+    background:var(--brand-soft);color:var(--brand-deep);
+    font-weight:700;font-size:14px;
+    margin-bottom:12px;
+  }
+  .step h3{font-size:15.5px;margin-bottom:8px;}
+  .step p{font-size:14px;color:var(--ink-soft);margin:0;}
+
+  /* 提示条 */
+  .notice{
+    background:var(--warn-soft);
+    border:1px solid #f2dcb6;
+    border-left:4px solid #e0a33c;
+    border-radius:10px;
+    padding:16px 20px;
+    font-size:14.2px;
+    color:#6d5320;
+  }
+  .notice strong{color:#8a6410;}
+
+  /* FAQ */
+  .faq-list{display:grid;gap:12px;}
+  details.faq{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:0 18px;
+    box-shadow:var(--shadow);
+    transition:.2s;
+  }
+  details.faq[open]{
+    border-color:#c6daff;
+    background:#fbfdff;
+  }
+  details.faq summary{
+    cursor:pointer;
+    list-style:none;
+    padding:16px 0;
+    font-size:15.2px;
+    font-weight:600;
+    color:var(--ink);
+    display:flex;align-items:center;gap:10px;
+  }
+  details.faq summary::-webkit-details-marker{display:none;}
+  details.faq summary::before{
+    content:"?";
+    flex:0 0 22px;height:22px;
+    border-radius:6px;
+    background:var(--brand-soft);
+    color:var(--brand-deep);
+    font-size:13px;font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+  }
+  details.faq[open] summary::before{
+    content:"!";
+    background:var(--accent-soft);
+    color:#0b6b60;
+  }
+  details.faq .ans{
+    padding:0 0 18px 32px;
+    font-size:14.3px;
+    color:var(--ink-soft);
+  }
+  details.faq .ans p:last-child{margin-bottom:0;}
+
+  /* 页脚 */
+  footer.site{
+    background:#0d1b36;
+    color:#9db0d0;
+    margin-top:30px;
+    padding:38px 0 22px;
+    font-size:14px;
+  }
+  .foot-grid{
+    display:grid;
+    grid-template-columns:1.4fr 1fr 1fr;
+    gap:28px;
+    padding-bottom:24px;
+    border-bottom:1px solid rgba(255,255,255,.1);
+  }
+  footer.site h4{
+    color:#fff;font-size:15px;margin-bottom:12px;
+  }
+  footer.site p{font-size:13.6px;color:#8ea3c6;line-height:1.8;}
+  footer.site ul{list-style:none;padding:0;margin:0;}
+  footer.site li{margin-bottom:8px;font-size:13.6px;}
+  footer.site li a{color:#a9bcdd;}
+  footer.site li a:hover{color:#fff;}
+  .foot-bottom{
+    padding-top:18px;
+    display:flex;flex-wrap:wrap;gap:10px;
+    justify-content:space-between;
+    font-size:13px;color:#7d90b2;
+  }
+
+  @media (max-width:960px){
+    .hero-grid{grid-template-columns:1fr;}
+    .split{grid-template-columns:1fr;}
+    .foot-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:640px){
+    body{font-size:15.4px;}
+    .header-inner{padding:18px 0 20px;}
+    nav.mainnav a{padding:7px 11px;font-size:13.6px;}
+    .hero{padding-bottom:32px;}
+    main{padding:28px 0 6px;}
+    section.block{margin-bottom:36px;}
+    .sec-head h2{font-size:19.5px;}
+    .grid{grid-template-columns:1fr;}
+    .foot-grid{grid-template-columns:1fr;gap:22px;}
+    .panel,.card{padding:18px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>本页为搜索引擎知识整理与导航参考，不代理任何搜索服务。</span>
+    <span>收录方向：<b>综合 · 隐私 · 学术 · 垂直 · 区域</b></span>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap header-inner">
+    <div class="logo">
+      <div class="logo-mark">S</div>
+      <div class="logo-text">
+        <strong>国外搜索引擎大全</strong>
+        <em>全球搜索入口分类整理与选用参考</em>
+      </div>
+    </div>
+    <nav class="mainnav">
+      <a href="#overview">概览</a>
+      <a href="#general">综合搜索</a>
+      <a href="#privacy">隐私搜索</a>
+      <a href="#vertical">垂直搜索</a>
+      <a href="#choose">选择建议</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+  </div>
+
+  <div class="wrap hero">
+    <div class="hero-grid">
+      <div>
+        <h1>国外搜索引擎大全：按用途整理的全球搜索入口</h1>
+        <p class="lead">
+          想找 Google 之外的搜索工具，或者需要更注重隐私、更偏向学术、更贴近某个地区的搜索结果，
+          都可以从这份分类清单入手。下面按“综合、隐私、学术、垂直、区域”五类整理常见的国外搜索引擎，
+          说明各自的特点、适用场景与使用时的注意事项，方便按需选择而不是盲目切换。
+        </p>
+        <div class="hero-tags">
+          <span>综合型入口</span>
+          <span>不追踪隐私搜索</span>
+          <span>论文与文献检索</span>
+          <span>图片 / 视频 / 问答</span>
+          <span>区域与多语言</span>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <h3>快速定位你的需求</h3>
+        <ul>
+          <li><b>日常通用检索</b>：优先选综合型搜索引擎</li>
+          <li><b>不想被记录</b>：选隐私型搜索引擎</li>
+          <li><b>写论文查文献</b>：选学术型搜索引擎</li>
+          <li><b>找图、找视频、找问答</b>：选垂直型搜索引擎</li>
+          <li><b>查某国本地信息</b>：选区域型搜索引擎</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- 概览 -->
+  <section class="block" id="overview">
+    <div class="sec-head">
+      <h2>先搞清楚：国外搜索引擎大致分几类</h2>
+      <p>分类不是绝对的，很多搜索引擎同时具备多种能力，这里按主要定位划分，便于快速筛选。</p>
+    </div>
+    <div class="catbar">
+      <a href="#general">综合搜索引擎</a>
+      <a href="#privacy">隐私搜索引擎</a>
+      <a href="#vertical">学术与垂直搜索</a>
+      <a href="#region">区域与多语言搜索</a>
+      <a href="#choose">如何组合使用</a>
+      <a href="#faq">常见问题</a>
+    </div>
+    <div style="height:18px"></div>
+    <div class="split">
+      <div class="panel">
+        <h3>五类搜索引擎的核心差异</h3>
+        <ul class="checklist">
+          <li><b>综合搜索引擎</b>：网页、图片、视频、新闻、地图等一站式覆盖，索引规模大，适合绝大多数日常查询。</li>
+          <li><b>隐私搜索引擎</b>：强调不长期保存个人搜索记录、减少个性化追踪，适合对数据留存敏感的用户。</li>
+          <li><b>学术搜索引擎</b>：面向论文、专利、引用关系与文献元数据，检索结果以学术资源为主。</li>
+          <li><b>垂直搜索引擎</b>：只做某一类内容，例如图片、视频、问答、代码、商品比价，专业度更高。</li>
+          <li><b>区域搜索引擎</b>：在特定国家或语言区更常用，本地新闻、地图、生活服务结果更贴近实际。</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>使用前需要知道的三件事</h3>
+        <p>第一，搜索引擎的结果排序由各自算法决定，同一关键词在不同引擎上出现差异是正常现象，交叉验证能减少信息偏差。</p>
+        <p>第二，部分国外搜索引擎在特定网络环境下可能访问不稳定，是否可用取决于你所在地区的网络条件，本页不提供任何访问方式。</p>
+        <p>第三，搜索结果中的广告位、推广链接与自然结果通常有标识，阅读时留意区分，尤其是涉及医疗、金融等敏感领域时。</p>
+        <div class="notice" style="margin-top:6px">
+          <strong>提示：</strong>本页仅做信息整理与分类说明，不对任何搜索引擎的服务质量、内容准确性作出保证，请以实际访问结果为准。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 综合搜索 -->
+  <section class="block" id="general">
+    <div class="sec-head">
+      <h2>综合型国外搜索引擎</h2>
+      <p>覆盖网页、图片、视频、新闻、地图等多种结果类型，是大多数人日常检索的首选。</p>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-blue">G</div>
+          <h3>Google<em>全球使用最广的综合搜索</em></h3>
+        </div>
+        <p>索引规模大、结果类型丰富，支持网页、图片、视频、新闻、地图、学术等多种模式。高级搜索语法（如站内限定、文件类型限定、精确匹配）较为完善，适合需要精细控制检索条件的场景。</p>
+        <div class="meta"><span>综合检索</span><span>高级语法</span><span class="g">多语言</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-green">B</div>
+          <h3>Bing<em>微软旗下综合搜索</em></h3>
+        </div>
+        <p>网页、图片、视频、地图、资讯等模块齐全，界面结构清晰，在英文内容检索上与 Google 形成互补。部分用户认为其在图片搜索和视觉呈现方面体验友好。</p>
+        <div class="meta"><span>综合检索</span><span>图片搜索</span><span class="g">多语言</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-purple">Y</div>
+          <h3>Yahoo Search<em>老牌门户型搜索入口</em></h3>
+        </div>
+        <p>以门户网站形态提供搜索服务，除网页结果外还整合新闻、财经、体育等频道内容。适合习惯门户式信息浏览、希望在同一页面获取多类资讯的用户。</p>
+        <div class="meta"><span>门户资讯</span><span>综合检索</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-orange">Y</div>
+          <h3>Yandex<em>俄语区主流综合搜索</em></h3>
+        </div>
+        <p>在俄语及东欧地区使用广泛，除网页搜索外还提供地图、翻译、图片、音乐等多项服务。检索俄语内容或查询相关地区信息时，结果相关性通常更好。</p>
+        <div class="meta"><span>区域优势</span><span>多服务整合</span><span class="g">俄语内容</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-red">N</div>
+          <h3>Naver<em>韩国代表性搜索门户</em></h3>
+        </div>
+        <p>韩国本土使用率很高的搜索与门户平台，整合博客、知识问答、新闻、地图等内容形态。查询韩国本地资讯、生活信息时往往比通用引擎更贴近实际。</p>
+        <div class="meta"><span>区域优势</span><span>本地生活</span><span class="g">韩语内容</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-slate">B</div>
+          <h3>Brave Search<em>独立索引的综合搜索</em></h3>
+        </div>
+        <p>使用自建索引，强调减少追踪与个性化干预，同时提供网页、图片、新闻等常规结果类型，可视为兼顾综合能力与隐私取向的选项。</p>
+        <div class="meta"><span>综合检索</span><span>独立索引</span><span class="g">少追踪</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 隐私搜索 -->
+  <section class="block" id="privacy">
+    <div class="sec-head">
+      <h2>隐私取向的国外搜索引擎</h2>
+      <p>这类引擎通常强调不长期保存搜索记录、减少用户画像构建，适合对数据留存较敏感的使用场景。</p>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-green">D</div>
+          <h3>DuckDuckGo<em>知名度较高的隐私搜索</em></h3>
+        </div>
+        <p>以不追踪用户、不构建个人搜索画像为主要特点，界面简洁，提供网页、图片、视频、新闻等基础结果类型，并支持一定程度的检索语法。</p>
+        <div class="meta"><span>不追踪</span><span>界面简洁</span><span class="g">综合结果</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-purple">S</div>
+          <h3>Startpage<em>注重匿名的搜索入口</em></h3>
+        </div>
+        <p>通过代理方式获取搜索结果，使用户请求不直接暴露给上游引擎，强调匿名性与隐私保护，结果类型以网页和图片为主。</p>
+        <div class="meta"><span>匿名访问</span><span>网页结果</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-blue">Q</div>
+          <h3>Qwant<em>欧洲地区的隐私搜索</em></h3>
+        </div>
+        <p>面向欧洲用户设计，强调遵守当地数据保护要求，提供网页、新闻、图片、地图等结果模块，在法语内容检索上有一定优势。</p>
+        <div class="meta"><span>欧洲地区</span><span>数据保护</span><span class="g">法语内容</span></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-slate">M</div>
+          <h3>Mojeek<em>自建索引的独立引擎</em></h3>
+        </div>
+        <p>拥有独立爬虫与索引，不依赖其他搜索引擎的结果，强调结果中立性。索引规模相对有限，适合作为补充性检索工具使用。</p>
+        <div class="meta"><span>独立索引</span><span>结果中立</span></div>
+      </article>
+    </div>
+    <div style="height:18px"></div>
+    <div class="notice">
+      <strong>说明：</strong>“隐私搜索”指的是服务方对搜索记录的保存与使用策略，并不等同于内容绝对不可见。使用任何搜索引擎时，仍建议避免在查询框中输入身份证号、银行卡号等敏感个人信息。
+    </div>
+  </section>
+
+  <!-- 垂直搜索 -->
+  <section class="block" id="vertical">
+    <div class="sec-head">
+      <h2>学术与垂直型国外搜索引擎</h2>
+      <p>当需求集中在论文、图片、视频、问答等特定内容类型时，垂直引擎往往比综合搜索更高效。</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>名称</th>
+            <th>主要定位</th>
+            <th>适合的检索需求</th>
+            <th>使用提示</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Google Scholar</strong></td>
+            <td>学术文献检索</td>
+            <td>查找论文、会议文章、引用关系、作者成果</td>
+            <td>结果包含预印本与不同来源版本，引用前建议核对原文出处</td>
+          </tr>
+          <tr>
+            <td><strong>BASE</strong></td>
+            <td>学术资源聚合</td>
+            <td>跨机构检索开放获取文献与学位论文</td>
+            <td>以元数据聚合为主，部分条目需跳转至来源站点获取全文</td>
+          </tr>
+          <tr>
+            <td><strong>PubMed</strong></td>
+            <td>生物医学文献</td>
+            <td>医学、生命科学领域的论文与综述检索</td>
+            <td>面向专业领域，检索词建议使用规范主题词以提高准确率</td>
+          </tr>
+          <tr>
+            <td><strong>Semantic Scholar</strong></td>
+            <td>AI 辅助文献检索</td>
+            <td>快速了解论文要点、相关研究与引用脉络</td>
+            <td>自动生成的摘要与标签仅供参考，需以原文为准</td>
+          </tr>
+          <tr>
+            <td><strong>Google Images / Bing Images</strong></td>
+            <td>图片搜索</td>
+            <td>查找素材、以图搜图、确认图片来源</td>
+            <td>注意图片版权与授权范围，商用前需确认许可</td>
+          </tr>
+          <tr>
+            <td><strong>YouTube / Vimeo 站内搜索</strong></td>
+            <td>视频内容检索</td>
+            <td>查找教程、演讲、纪录片等视频资料</td>
+            <td>站内搜索结果受平台推荐机制影响，可用筛选器缩小范围</td>
+          </tr>
+          <tr>
+            <td><strong>Stack Overflow 搜索</strong></td>
+            <td>技术问答检索</td>
+            <td>排查编程报错、查找代码实现思路</td>
+            <td>优先查看高票且近期有更新的回答，注意版本兼容性</td>
+          </tr>
+          <tr>
+            <td><strong>GitHub 搜索</strong></td>
+            <td>代码与项目检索</td>
+            <td>查找开源项目、代码片段、Issue 讨论</td>
+            <td>留意项目许可证与最近维护时间</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 区域搜索 -->
+  <section class="block" id="region">
+    <div class="sec-head">
+      <h2>区域与多语言搜索引擎</h2>
+      <p>查询某个国家或语言区的本地信息时，区域型引擎通常能给出更贴近当地的结果。</p>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-orange">Y</div>
+          <h3>Yandex<em>俄语与东欧地区</em></h3>
+        </div>
+        <p>除搜索外还整合地图、翻译、天气等服务，查询俄语资料或当地生活信息时实用性较强。</p>
+        <div class="meta"><span>俄语</span><span>本地服务</span></div>
+      </article>
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-red">N</div>
+          <h3>Naver<em>韩国本地信息</em></h3>
+        </div>
+        <p>博客、知识问答、地图等本地内容生态完整，适合查询韩国相关的生活、文化与商业信息。</p>
+        <div class="meta"><span>韩语</span><span>本地生态</span></div>
+      </article>
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-red">Y</div>
+          <h3>Yahoo! JAPAN<em>日本常用门户搜索</em></h3>
+        </div>
+        <p>在日本使用率较高的门户型搜索入口，整合新闻、购物、拍卖、地图等本地化服务。</p>
+        <div class="meta"><span>日语</span><span>门户服务</span></div>
+      </article>
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-blue">S</div>
+          <h3>Seznam<em>捷克本地搜索</em></h3>
+        </div>
+        <p>捷克本土搜索引擎，提供网页、地图、新闻等服务，查询捷克本地信息时结果相关性较好。</p>
+        <div class="meta"><span>捷克语</span><span>本地信息</span></div>
+      </article>
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-green">B</div>
+          <h3>Baidu 之外的亚洲入口</h3>
+        </div>
+        <p>东南亚等地区也存在本地化搜索与门户平台，通常与当地新闻、电商、社交服务深度结合，查询当地资讯时可作为补充。</p>
+        <div class="meta"><span>区域覆盖</span><span>本地资讯</span></div>
+      </article>
+      <article class="card">
+        <div class="card-top">
+          <div class="badge b-purple">E</div>
+          <h3>Ecosia 等公益型搜索</h3>
+        </div>
+        <p>部分搜索引擎将广告收入用于环保等公益用途，搜索能力多基于合作方索引，适合关注社会议题的用户了解。</p>
+        <div class="meta"><span>公益取向</span><span>合作索引</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 选择建议 -->
+  <section class="block" id="choose">
+    <div class="sec-head">
+      <h2>如何组合使用这些搜索引擎</h2>
+      <p>与其只依赖一个入口，不如按任务类型搭配使用，通常能更快找到需要的信息。</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <i>1</i>
+        <h3>日常查询用综合引擎</h3>
+        <p>大多数事实性、资讯性查询，用综合搜索引擎即可。需要精确匹配时，善用引号、站内限定、文件类型限定等语法。</p>
+      </div>
+      <div class="step">
+        <i>2</i>
+        <h3>敏感话题换隐私引擎</h3>
+        <p>涉及个人健康、职业规划等不希望被长期记录的查询，可以改用隐私取向的搜索引擎。</p>
+      </div>
+      <div class="step">
+        <i>3</i>
+        <h3>专业内容走垂直入口</h3>
+        <p>论文、代码、医学文献等专业内容，直接用对应的垂直搜索引擎，减少无关结果干扰。</p>
+      </div>
+      <div class="step">
+        <i>4</i>
+        <h3>关键结论做交叉验证</h3>
+        <p>重要信息建议在至少两个不同引擎中检索比对，尤其要留意信息的发布时间与原始出处。</p>
+      </div>
+    </div>
+    <div style="height:18px"></div>
+    <div class="split">
+      <div class="panel">
+        <h3>提升检索效率的通用技巧</h3>
+        <ul class="checklist">
+          <li><b>用引号做精确匹配</b>：把短语放进英文双引号，可减少词语被拆分的情况。</li>
+          <li><b>限定站点</b>：使用 site: 语法把结果限制在特定网站或域名后缀内。</li>
+          <li><b>限定文件类型</b>：使用 filetype: 语法查找 PDF、DOC 等特定格式资料。</li>
+          <li><b>用减号排除词</b>：在关键词前加减号，可过滤掉不需要的主题词。</li>
+          <li><b>限定时间范围</b>：多数引擎提供时间筛选，查最新动态时非常实用。</li>
+          <li><b>换语言再搜一次</b>：同一主题用英文或当地语言检索，常能发现不同视角的资料。</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>选用时容易忽略的几点</h3>
+        <p><b>结果不等于事实。</b>搜索引擎只负责排序与呈现，内容是否准确仍需回到原始来源判断。</p>
+        <p><b>注意地区与语言差异。</b>同一关键词在不同语言区的含义可能不同，检索前先明确目标语言。</p>
+        <p><b>留意服务条款变化。</b>隐私政策、数据保存策略可能随时间调整，长期使用前建议查看最新说明。</p>
+        <p><b>不要输入敏感信息。</b>无论使用哪种搜索引擎，都不建议在搜索框中填写证件号、账号密码等内容。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="block" id="faq">
+    <div class="sec-head">
+      <h2>常见问题</h2>
+      <p>关于国外搜索引擎，用户问得比较多的几个问题。</p>
+    </div>
+    <div class="faq-list">
+      <details class="faq" open>
+        <summary>国外搜索引擎和国内搜索引擎的主要区别是什么？</summary>
+        <div class="ans">
+          <p>主要差异体现在索引范围、结果排序逻辑、内容生态和语言覆盖上。国外综合搜索引擎通常在多语言内容、英文资料方面索引较全；国内搜索引擎在中文内容、本地生活服务和政策合规方面更贴近本土使用习惯。实际使用时，按查询内容的语言和主题选择，往往比固定用一个引擎更有效。</p>
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>隐私搜索引擎真的完全不记录搜索内容吗？</summary>
+        <div class="ans">
+          <p>不同服务的策略并不相同。多数隐私搜索引擎会强调不长期保存可关联到个人的搜索记录、不构建个人画像，但通常仍会进行必要的技术性日志处理以维持服务运行。具体做法应以各服务最新的隐私政策为准，不宜简单理解为“完全不留任何痕迹”。</p>
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>查论文应该用哪个搜索引擎？</summary>
+        <div class="ans">
+          <p>可以先用 Google Scholar 或 Semantic Scholar 做广泛检索，了解主题下的主要研究；再用 PubMed、BASE 等专业或聚合平台补充。检索时注意区分预印本、会议论文与正式发表版本，引用前核对原文与出版信息。</p>
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>为什么同一个关键词在不同搜索引擎上结果差别很大？</summary>
+        <div class="ans">
+          <p>因为各引擎的爬虫覆盖范围、索引更新频率、排序算法以及是否使用个性化推荐都不一样。此外，语言设置、地区设置、登录状态也会影响结果。出现差异属于正常现象，重要信息建议交叉比对。</p>
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>使用国外搜索引擎需要注意什么？</summary>
+        <div class="ans">
+          <p>一是访问稳定性可能受网络环境影响；二是部分内容可能不符合本地法律法规或阅读习惯，需自行判断；三是不要输入个人敏感信息；四是涉及医疗、法律、金融等专业问题时，搜索结果只能作为线索，最终应参考权威来源或咨询专业人士。</p>
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>有没有必要同时收藏多个搜索引擎？</summary>
+        <div class="ans">
+          <p>如果检索需求比较多样，建议保留两到三个：一个综合型用于日常查询，一个隐私型用于敏感查询，再按专业方向补充一个垂直型。数量过多反而会增加选择成本，关键是清楚每个入口适合解决什么问题。</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>国外搜索引擎大全</h4>
+        <p>本页按综合、隐私、学术、垂直与区域五类，整理常见的国外搜索引擎，说明各自定位与适用场景，帮助读者按需选择检索入口。页面内容为信息整理，不提供访问代理或下载服务。</p>
+      </div>
+      <div>
+        <h4>分类导航</h4>
+        <ul>
+          <li><a href="#general">综合型搜索引擎</a></li>
+          <li><a href="#privacy">隐私型搜索引擎</a></li>
+          <li><a href="#vertical">学术与垂直搜索</a></li>
+          <li><a href="#region">区域与多语言搜索</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>使用参考</h4>
+        <ul>
+          <li><a href="#choose">搜索引擎组合建议</a></li>
+          <li><a href="#overview">分类概念说明</a></li>
+          <li><a href="#faq">常见问题解答</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>内容仅供参考，请以各搜索引擎官方说明为准。</span>
+      <span>请遵守所在地法律法规，合理使用网络检索服务。</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var links = document.querySelectorAll('nav.mainnav a, .catbar a, footer.site a[href^="#"]');
+    links.forEach(function(link){
+      link.addEventListener('click', function(){
+        var id = this.getAttribute('href');
+        if(id && id.length > 1){
+          var target = document.querySelector(id);
+          if(target){
+            var top = target.getBoundingClientRect().top + window.pageYOffset - 16;
+            window.scrollTo({ top: top, behavior: 'smooth' });
+          }
+        }
+      });
+    });
+  })();
+</script>
+
+</body>
+  </html>
